@@ -1,35 +1,3 @@
-Command Line Interface has the following parts:
-
-'command' 'flags' 'arguments'
-
-command -> is the CLI command that does a specific task
-flag -> is the option to get certain behavior of the command, preceeded by a -
-argument -> option for the command, it is something that the command is going to modify
-
-CLI commands introduced in the video:
-
-pwd    -> stands for 'print working directory'. Outputs the working directory
-clear  -> clears all the commands in the CLI
-ls     -> used to list all the folders and files in the current directory
-ls -a  -> lists all the folders including the hidden ones
-ls -al -> lists details of hidden and unhidden files and folders. '-a' and '-l' are flags; they can be combined to the flag -al
-cd     -> stands for 'change directory'. It takes the path of the directory as argument and changes the working directory to that folder
-cd     -> with no argument changes the working directory to home directory
-cd ..  -> changes the directory to one level above the working directory
-mkdir  -> stands for 'make directory'. 'mkdir' takes the name of the new folder as the argument
-touch  -> creates an empty file. 'touch' takes the name of the empty file as an argument
-cp     -> stands for copy. It takes 2 arguments - First is the name of the file to be copied, Second is the path of the target directory
-cp -r  -> '-r' flag is used to copy the contents of entire directory into a different directory. The first argument is the directory whose files have to be copied, second is the target directory
-rm     -> stands for 'remove'. It takes the name of the file to be deleted as the argument.
-          'rm' can be used to delete directories by adding '-r' flag and giving the name of the directory as an argument.
-          THERE IS NO UNDO FOR 'rm'
-mv     -> stands for 'move'. It takes 2 arguments - First is the name of the file to be moved, Second is the path of the target directory
-          'mv' can also be used to rename file. First argument will be the name of the file to be renamed, Second is the new name of the file
-echo   -> echo will print any argument that follows
-date   -> prints the date
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 Introduction to Git
 
 $git config --global user.name "Your username"
